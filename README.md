@@ -7,6 +7,7 @@ The dataset is store in the file amazon_product_reviews.csv in amazon_product_re
 The program is stored in sentiment_analysis.py
 
 1. A description of the dataset used
+
 The dataset used is a list of over 34,000 consumer reviews for Amazon products like
 the Kindle, Fire TV Stick, and more provided by Datafiniti's Product Database. The
 dataset includes basic product information, rating, review text, and more for each
@@ -16,6 +17,7 @@ feature is removed. The ‘clean_data’ variable stores the preprocessed data a
 input of the sentiment analysis model.
 
 2. Details of the preprocessing steps
+
 First, each review of the input data is tokenized into words by token.orth_ attribute
 and the stopwords are filtered in each review by the token.is_stop attribute in the
 spacy library.
@@ -30,6 +32,7 @@ Finally, the sentiment output is stored at the new column next to each review in
 ‘clean_data’ dataframe.
 
 3. Evaluation of results
+
 Below are the analysis results of the sentiment analysis model from the chosen
 review 2206, 2207 and 2208:
 Review 2206:
