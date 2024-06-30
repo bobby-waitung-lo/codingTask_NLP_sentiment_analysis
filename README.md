@@ -3,6 +3,7 @@
 This is a Natural Language Processing coding task about a sentiment analysis on consumer reviews of Amazon product using SpaCy library
 
 The dataset is store in the file amazon_product_reviews.csv in amazon_product_reviews.zip
+
 The program is stored in sentiment_analysis.py
 
 1. A description of the dataset used
