@@ -113,3 +113,6 @@ This is the program out put:
 ![program output](https://github.com/lwtb7801/codingTask_NLP_sentiment_analysis/assets/163464647/3cae59f5-3a29-46cd-8902-54be97732ca4)
 
 
+Credits 
+
+Author: Bobby
