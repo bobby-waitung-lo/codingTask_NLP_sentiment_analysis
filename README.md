@@ -8,9 +8,22 @@ The program is stored in sentiment_analysis.py
 
 Please download amazon_product_reviews.csv and sentiment_analysis.py in the same directry.
 
+
+## Preperation:
+
+Install Python library pandas, spacy and spacytextblob by entering the following commands in the terminal
+
+pip install pandas
+pip install spacy
+pip install spacytextblob
+
+Download additional data for TextBlob by entering the following command in the terminal
+
+Python -m textblob.download_corpora
+
 Then, run the program sentiment_analysis.py
 
-1. A description of the dataset used
+### 1. A description of the dataset used
 
 The dataset used is a list of over 34,000 consumer reviews for Amazon products like
 the Kindle, Fire TV Stick, and more provided by Datafiniti's Product Database. The
@@ -22,7 +35,7 @@ feature is removed. The ‘clean_data’ variable stores the preprocessed data a
 input of the sentiment analysis model.
 
 
-2. Details of the preprocessing steps
+### 2. Details of the preprocessing steps
 
 First, each review of the input data is tokenized into words by token.orth_ attribute
 and the stopwords are filtered in each review by the token.is_stop attribute in the
@@ -42,7 +55,7 @@ Finally, the sentiment output is stored at the new column next to each review in
 ‘clean_data’ dataframe.
 
 
-3. Evaluation of results
+### 3. Evaluation of results
 
 Below are the analysis results of the sentiment analysis model from the chosen
 review 2206, 2207 and 2208:
@@ -83,7 +96,7 @@ To summarize, based on the selected sample reviews, the model performs well in
 sentiment analysis.
 
 
-4. Insights into the model's strengths and limitations
+### 4. Insights into the model's strengths and limitations
 
 There are a few strengths of the spaCy NLP model for sentiment analysis.
 
@@ -109,10 +122,10 @@ spaCy.
 Third, spaCy is designed to train NLP models on GPU. Although CPU-optimized
 pipelines are supported, less accurate results may be obtained.
 
-This is the program out put:
+### This is the program output:
 ![program output](https://github.com/lwtb7801/codingTask_NLP_sentiment_analysis/assets/163464647/3cae59f5-3a29-46cd-8902-54be97732ca4)
 
 
-Credits 
+### Credits 
 
 Author: Bobby
