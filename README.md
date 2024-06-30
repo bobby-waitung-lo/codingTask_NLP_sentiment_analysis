@@ -1,4 +1,4 @@
-# codingTasks
+# NLP_sentiment_analysis
 
 This is a Natural Language Processing coding task about a sentiment analysis on consumer reviews of Amazon product using SpaCy library
 
