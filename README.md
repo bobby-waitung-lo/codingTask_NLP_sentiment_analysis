@@ -6,6 +6,10 @@ The dataset is store in the file amazon_product_reviews.csv in amazon_product_re
 
 The program is stored in sentiment_analysis.py
 
+Please download amazon_product_reviews.csv and sentiment_analysis.py in the same directry.
+
+Then, run the program sentiment_analysis.py
+
 1. A description of the dataset used
 
 The dataset used is a list of over 34,000 consumer reviews for Amazon products like
@@ -16,6 +20,7 @@ product.
 The ‘reviews.text’ column is selected as the feature and then the missing data in the
 feature is removed. The ‘clean_data’ variable stores the preprocessed data as the
 input of the sentiment analysis model.
+
 
 2. Details of the preprocessing steps
 
@@ -35,6 +40,7 @@ and “negative” based on the if-else condition statements.
 
 Finally, the sentiment output is stored at the new column next to each review in the
 ‘clean_data’ dataframe.
+
 
 3. Evaluation of results
 
@@ -76,9 +82,11 @@ the product which matches with the analysis result of the model.
 To summarize, based on the selected sample reviews, the model performs well in
 sentiment analysis.
 
+
 4. Insights into the model's strengths and limitations
 
 There are a few strengths of the spaCy NLP model for sentiment analysis.
+
 First, it is easy to use. The import of spaCy NLP library is straightforward and can be
 used directly.
 
@@ -100,3 +108,8 @@ spaCy.
 
 Third, spaCy is designed to train NLP models on GPU. Although CPU-optimized
 pipelines are supported, less accurate results may be obtained.
+
+This is the program out put:
+![program output](https://github.com/lwtb7801/codingTask_NLP_sentiment_analysis/assets/163464647/3cae59f5-3a29-46cd-8902-54be97732ca4)
+
+
